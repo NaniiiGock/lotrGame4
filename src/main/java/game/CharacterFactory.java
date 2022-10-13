@@ -5,7 +5,8 @@ import java.util.Random;
 import java.util.Set;
 import lombok.SneakyThrows;
 import org.reflections.Reflections;
-import static org.reflections.scanners.Scanners.SubTypes;
+
+import static org.reflections.scanners.Scanners.*;
 
 public class CharacterFactory {
     @SneakyThrows
